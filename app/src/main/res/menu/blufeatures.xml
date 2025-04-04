@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:icon="@drawable/baseline_bluetooth_24"
+        android:title="Turn On"
+        app:showAsAction="ifRoom"
+        android:visible="true"
+        android:id="@+id/turnOnbluetooth"/>
+    <item android:icon="@drawable/baseline_bluetooth_disabled_24"
+        android:title="Turn Off"
+        android:visible="true"
+        android:id="@+id/turnOffbluetooth"/>
+    <item android:title="Enable Discovery"
+
+        android:id="@+id/getdiscovered"
+        android:icon="@drawable/baseline_cloud_sync_24"
+        />
+
+</menu>

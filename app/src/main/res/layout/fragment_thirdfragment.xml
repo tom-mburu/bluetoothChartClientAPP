@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".thirdfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:paddingTop="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/recvmsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_weight=".1"
+
+        android:gravity="bottom"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:hint="enter message"
+            android:textColorHint="@color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/msginput"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0288D1"
+            android:textColor="@color/white"
+            android:layout_marginRight="20dp"
+            android:id="@+id/msg"/>
+        <ImageButton
+            android:id="@+id/sendBTN"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_send_24"
+            android:backgroundTint="#00000000"/>
+    </LinearLayout>
+
+</LinearLayout>
